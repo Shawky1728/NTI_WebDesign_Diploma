@@ -1,0 +1,30 @@
+nav * {
+    float: left;
+}
+
+.Nav-left {
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.Nav-mid ul li {
+    list-style: none;
+    margin-left: 100px;
+}
+
+.Nav-right {
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.Nav-right input {
+   border-radius: 8px;
+   padding: 3px;
+
+}
+
+.Clear {
+    clear: both;
+}
+
