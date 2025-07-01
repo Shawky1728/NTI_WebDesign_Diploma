@@ -36,6 +36,7 @@ nav * {
     background-image: url(Images/pic1.jpg);
     width: 600px;
     height: 545px;
+    border-radius: 90px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 100px;
