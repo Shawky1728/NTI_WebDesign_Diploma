@@ -1,0 +1,35 @@
+div{
+    width: 600px;
+    height: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+}
+
+.top{
+   background-color: red;
+     width: 50px;
+    height: 50px;
+    left:0px;
+    top:0px;
+   
+}
+
+.center{
+     width: 50px;
+    height: 50px;
+     left:50%;
+    top:50%;
+    background-color: green;
+}
+.bottom{
+     width: 50px;
+    height: 50px;
+    background-color: blue;
+     right:0px;
+    bottom:0px;
+   
+}
