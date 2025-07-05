@@ -179,7 +179,17 @@ h1 {
     background-color: #EEE;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.mybody1 .center1 .description p {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    color: black;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .mybody1 .center1 .description h3 {
@@ -187,24 +197,18 @@ h1 {
     width: 100%;
     height: 10%;
     color: black;
+    margin-top: 10px;
     font-size: 30px;
 }
 
-.mybody1 .center1 .description p {
-    display: flex;
-    width: 100%;
-    height: 20%;
-    color: black;
-    font-size: 30px;
-}
 
 .mybody1 .center1 .description p i {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #DE1442;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -389,8 +393,8 @@ h1 {
     width: 20%;
     height: 70%;
     flex-direction: column;
-    align-content: space-around;
-    justify-content: space-around;
+    align-content: space-evenly;
+    justify-content: space-evenly;
     background-color: #212429;
 }
 
@@ -415,6 +419,7 @@ h1 {
 .mybody7 .item2 p span {
     display: flex;
     padding: 1px;
+    width: 200px;
     border-bottom: 1px solid #6c747d;
 }
 
