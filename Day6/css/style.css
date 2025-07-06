@@ -1,0 +1,30 @@
+.parent{
+    background-color: green;
+    padding: 20px;
+    display: grid;
+    height: 500px;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,auto);
+    gap:5px;
+    grid-template-areas: 
+    "child1 child1 child1 child1"
+    "child2 child3 child3 child3"
+    "child2 child3 child3 child3"
+    "child4 child4 child4 child4"
+    ;
+}
+.parent div{
+    background-color: coral;
+}
+.child1{
+    grid-area: child1;
+}
+.child2{
+    grid-area: child2;
+}
+.child3{
+    grid-area: child3;
+}
+.child4{
+    grid-area: child4;
+}
