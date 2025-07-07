@@ -44,8 +44,9 @@ header {
 
 a {
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     color: #f2dbb0;
+    text-align: center;
     transition-duration: .1s;
 }
 
@@ -366,3 +367,36 @@ header .content h3 {
     color: black;
 }
 
+.contact{
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact .parg{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    color: #575c5f;
+}
+
+.contact .parg ul{
+    height: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+.contact .img {
+    width: 40%;
+}
+
+.contact .img img{
+    display: flex;
+    width: 500px;
+}
