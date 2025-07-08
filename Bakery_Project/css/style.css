@@ -396,9 +396,10 @@ header .content h3 {
     width: 40%;
 }
 
-.contact .img img{
-    display: flex;
+.contact .img iframe{
+
     width: 500px;
+    height: 350px;
 }
 
 .footer{
