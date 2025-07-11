@@ -1,7 +1,5 @@
- i{
-    font-size: 40px !important;
-}
-
-.cards{
-    height: 250px;
+.mycard{
+    border: 2px solid #DFDFDF;
+    height: 20rem ;
+    width: 19rem ;
 }
