@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.navbar li{
+    margin:0px 20px;
+}
+
+.button-nav{
+    padding: 5px 10px;
+    background-color: #E67E22;
+    margin-top: 5px;
+    text-align: center;
+    color: white !important;
+    width: 100px !important ;
+}
+
+
+
+.mycard{
+      box-shadow:0px 0px 30px .5px #00000091 ;
+      border-radius: 10px !important;
+      transition-duration: .3s;
+}
+.mycard img{
+    border-radius: 10px;
+}
+
+.mycard:hover{
+    scale: 1.1;
+}
+

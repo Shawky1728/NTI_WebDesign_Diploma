@@ -1,8 +1,12 @@
-let x=3;
+let x = ["ALI", 22, "ass", 12, "sss"];
+let y = [];
 
-if(x%2 ==0){
-    console.log("Even")
+for (let i = 0; i < x.length; i++) {
+    if (x[i] +x[i] !=2*x[i]) {
+        y.push(x[i]); 
+    }
 }
-else{
-    console.log("odd")
+
+for (let i = 0; i < y.length; i++) {
+    console.log(y[i]);
 }
